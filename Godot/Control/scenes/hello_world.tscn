@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://balt7n6y3avfe"]
+
+[ext_resource type="Script" path="res://scripts/hello_world.gd" id="1_ovevu"]
+[ext_resource type="Texture2D" uid="uid://dxhkwxiaynjt3" path="res://assets/icon.svg" id="2_bv5v3"]
+
+[node name="hello_world" type="Node2D"]
+script = ExtResource("1_ovevu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_bv5v3")
